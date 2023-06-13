@@ -148,6 +148,8 @@ svg {
 .slide:nth-child(1) .slide__bg {
   left: 0;
   background-image: url(../img/slika2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .slide:nth-child(1) .slide__overlay-path {
   fill: #000000;
@@ -164,6 +166,8 @@ svg {
 .slide:nth-child(2) .slide__bg {
   left: -50%;
   background-image: url(../img/slika3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .slide:nth-child(2) .slide__overlay-path {
   fill: #000000;
@@ -178,7 +182,9 @@ svg {
 }
 .slide:nth-child(3) .slide__bg {
   left: -100%;
-  background-image: url(../img/slika4.jpg);
+  background-image: url(../img/slika16.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .slide:nth-child(3) .slide__overlay-path {
   fill: #000000;
@@ -193,7 +199,9 @@ svg {
 }
 .slide:nth-child(4) .slide__bg {
   left: -150%;
-  background-image: url(../img/slika16.jpg);
+  background-image: url(../img/slika4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .slide:nth-child(4) .slide__overlay-path {
   fill: #000000;

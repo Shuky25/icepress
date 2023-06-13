@@ -38,7 +38,7 @@
 
             <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
                 <!-- <img src="assets/img/logo.png" alt=""> -->
-                <h1>ICEPRESS.rs<span></span></h1>
+                <img src="assets/img/logo.jpg" alt="">
             </a>
 
             <nav id="navbar" class="navbar">
@@ -46,17 +46,17 @@
                     <li><a href="index.html">Povratak na početnu stranu</a></li>
                 </ul>
             </nav><!-- .navbar -->
-            <div class="quote_btn-container  d-flex justify-content-center">
+            <!-- <div class="quote_btn-container  d-flex justify-content-center">
                 <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
                 <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
-            </div>
+            </div> -->
     </header><!-- Header kraj -->
     <section id="proizvodi">
         <div class="container3">
             <div class="item">
                 <a href="proizvod1.html" class="logo d-flex align-items-center me-auto me-lg-0">
-                    <img src="assets/img/logo10.png" alt="">
+                    <img src="assets/img/classic.jpg" alt="">
                 </a>
                 <h2>IcePress Classic</h2>
                 <button class="poruciclassic">Poruci Classic</button>
@@ -98,7 +98,7 @@
                             </div><br>
                             <input id="checkC" name="check" type="checkbox" /><label for="check">Politika privatnosti </label><span id="politikaprivC">...</span><br>
 
-                                <p id="politikaC">Hvala vam što posecujete našu veb stranicu i iskazujete interesovanje za naše proizvode. U našem poslovanju posvećeni smo zaštiti vaše privatnosti i sigurnosti vaših ličnih podataka. Ova politika privatnosti objašnjava kako prikupljamo, koristimo, otkrivamo i čuvamo vaše podatke prilikom korišćenja naše web stranice.
+                            <p id="politikaC">Hvala vam što posecujete našu veb stranicu i iskazujete interesovanje za naše proizvode. U našem poslovanju posvećeni smo zaštiti vaše privatnosti i sigurnosti vaših ličnih podataka. Ova politika privatnosti objašnjava kako prikupljamo, koristimo, otkrivamo i čuvamo vaše podatke prilikom korišćenja naše web stranice.
 
                                 Prikupljanje ličnih podataka: Prilikom naručivanja proizvoda sa naše veb stranice, možemo prikupiti određene lične podatke kao što su vaše ime, adresa e-pošte, adresa za dostavu i kontakt telefonski broj. Ovi podaci će se koristiti isključivo za obradu i isporuku vaše narudžbine.
 
@@ -116,7 +116,7 @@
             </div>
             <div class="item">
                 <a href="proizvod2.html" class="logo d-flex align-items-center me-auto me-lg-0">
-                    <img src="assets/img/logo10.png" alt="">
+                    <img src="assets/img/pro.jpg" alt="">
                 </a>
                 <h2>IcePress PRO</h2>
                 <button class="porucipro">Poruci PRO</button>
@@ -157,7 +157,7 @@
                             </div><br>
                             <input id="checkP" name="check" type="checkbox" /><label for="check">Politika privatnosti </label><span id="politikaprivP">...</span><br>
 
-                                <p id="politikaP">Hvala vam što posecujete našu veb stranicu i iskazujete interesovanje za naše proizvode. U našem poslovanju posvećeni smo zaštiti vaše privatnosti i sigurnosti vaših ličnih podataka. Ova politika privatnosti objašnjava kako prikupljamo, koristimo, otkrivamo i čuvamo vaše podatke prilikom korišćenja naše web stranice.
+                            <p id="politikaP">Hvala vam što posecujete našu veb stranicu i iskazujete interesovanje za naše proizvode. U našem poslovanju posvećeni smo zaštiti vaše privatnosti i sigurnosti vaših ličnih podataka. Ova politika privatnosti objašnjava kako prikupljamo, koristimo, otkrivamo i čuvamo vaše podatke prilikom korišćenja naše web stranice.
 
                                 Prikupljanje ličnih podataka: Prilikom naručivanja proizvoda sa naše veb stranice, možemo prikupiti određene lične podatke kao što su vaše ime, adresa e-pošte, adresa za dostavu i kontakt telefonski broj. Ovi podaci će se koristiti isključivo za obradu i isporuku vaše narudžbine.
 
