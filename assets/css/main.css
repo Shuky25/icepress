@@ -337,6 +337,8 @@ section {
 		overflow-y: auto;
 		transition: 0.3s;
 		z-index: 9998;
+		flex-direction: column;
+		list-style: none;
 	}
 
 	.navbar a,
@@ -847,4 +849,34 @@ input[type=email] {
 	width: 640px;
 }
 
+.modal form #politikaprivC, .modal form #politikaprivP {
+	color: #d3d3d3;
+	transition: .2s;
+}
 
+.modal form #politikaprivC:hover, .modal form #politikaprivP:hover {
+	cursor: pointer;
+	color: #fff;
+}
+
+.modal form #politikaC, .modal form #politikaP {
+	margin: 0;
+	display: none;
+	color: #d3d3d3;
+
+}
+
+.modal form #btnClassicPoruci, .modal form #btnProPoruci {
+	margin-top: 20px;
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	border: 2px solid #fff;
+	font-weight: bold;
+	transition: .2s;
+}
+
+.modal form #btnClassicPoruci:hover, .modal form #btnProPoruci:hover {
+	background-color: #fff;
+	color: #333;
+}

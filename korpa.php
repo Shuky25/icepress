@@ -10,7 +10,7 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/logo10.png" rel="icon">
+    <link href="assets/img/logo.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
@@ -96,9 +96,9 @@
                                 <label for="brojtelefona">Broj telefona:</label><br>
                                 <input type="text" name="brojtelefonaC" placeholder="Unesite broj telefona" require>
                             </div><br>
-                            <input id="check" name="check" type="checkbox" /><label for="check">Politika privatnosti
+                            <input id="checkC" name="check" type="checkbox" /><label for="check">Politika privatnosti </label><span id="politikaprivC">...</span><br>
 
-                                Hvala vam što posecujete našu veb stranicu i iskazujete interesovanje za naše proizvode. U našem poslovanju posvećeni smo zaštiti vaše privatnosti i sigurnosti vaših ličnih podataka. Ova politika privatnosti objašnjava kako prikupljamo, koristimo, otkrivamo i čuvamo vaše podatke prilikom korišćenja naše web stranice.
+                                <p id="politikaC">Hvala vam što posecujete našu veb stranicu i iskazujete interesovanje za naše proizvode. U našem poslovanju posvećeni smo zaštiti vaše privatnosti i sigurnosti vaših ličnih podataka. Ova politika privatnosti objašnjava kako prikupljamo, koristimo, otkrivamo i čuvamo vaše podatke prilikom korišćenja naše web stranice.
 
                                 Prikupljanje ličnih podataka: Prilikom naručivanja proizvoda sa naše veb stranice, možemo prikupiti određene lične podatke kao što su vaše ime, adresa e-pošte, adresa za dostavu i kontakt telefonski broj. Ovi podaci će se koristiti isključivo za obradu i isporuku vaše narudžbine.
 
@@ -108,7 +108,7 @@
 
                                 Bezbednost podataka: Vaše lične podatke čuvamo sigurno i primenjujemo odgovarajuće tehničke i organizacione mere kako bismo sprečili neovlašćen pristup, gubitak ili krađu podataka. Takođe koristimo sigurne veze prilikom prenosa podataka kako bismo osigurali da se vaši podaci štite tokom komunikacije sa našom veb stranicom.
 
-                                Prava korisnika: Vi imate pravo da pristupite, ispravite ili izbrišete svoje lične podatke koje smo prikupili, kao i da povučete svoju saglasnost za njihovu obradu. Takođe možete zatražiti prenos vaših podataka na drugu stranu. Ako imate bilo kakva pitanja ili zahteve u vezi sa vašim ličnim podacima, molimo vas da nas kontaktirate putem informacija za kontakt navedenih na našoj veb stranici.</label>
+                                Prava korisnika: Vi imate pravo da pristupite, ispravite ili izbrišete svoje lične podatke koje smo prikupili, kao i da povučete svoju saglasnost za njihovu obradu. Takođe možete zatražiti prenos vaših podataka na drugu stranu. Ako imate bilo kakva pitanja ili zahteve u vezi sa vašim ličnim podacima, molimo vas da nas kontaktirate putem informacija za kontakt navedenih na našoj veb stranici.</p>
                             <input type="submit" id="btnClassicPoruci" name="submitC" value="Poruci Classic" />
                         </form>
                     </div>
@@ -120,12 +120,12 @@
                 </a>
                 <h2>IcePress PRO</h2>
                 <button class="porucipro">Poruci PRO</button>
-                <!-- Modal classic -->
+                <!-- Modal pro -->
                 <div id="modalPro" class="modal">
                     <!-- Modal content -->
-                    <div class="modalP-content">
+                    <div class="modalC-content">
                         <span class="close">&times;</span>
-                        <h2>Poručite IcePress PRO</h2>
+                        <h2>Poručite IcePress Pro</h2>
                         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                             <div class="form-control" id="formControl">
                                 <div class="kec">
@@ -155,7 +155,19 @@
                                 <label for="brojtelefona">Broj telefona:</label><br>
                                 <input type="text" name="brojtelefonaP" placeholder="Unesite broj telefona" require>
                             </div><br>
-                            <input id="check" name="check" type="checkbox" /><label for="check">Prihvatanje uslova kurca i palca</label>
+                            <input id="checkP" name="check" type="checkbox" /><label for="check">Politika privatnosti </label><span id="politikaprivP">...</span><br>
+
+                                <p id="politikaP">Hvala vam što posecujete našu veb stranicu i iskazujete interesovanje za naše proizvode. U našem poslovanju posvećeni smo zaštiti vaše privatnosti i sigurnosti vaših ličnih podataka. Ova politika privatnosti objašnjava kako prikupljamo, koristimo, otkrivamo i čuvamo vaše podatke prilikom korišćenja naše web stranice.
+
+                                Prikupljanje ličnih podataka: Prilikom naručivanja proizvoda sa naše veb stranice, možemo prikupiti određene lične podatke kao što su vaše ime, adresa e-pošte, adresa za dostavu i kontakt telefonski broj. Ovi podaci će se koristiti isključivo za obradu i isporuku vaše narudžbine.
+
+                                Korišćenje ličnih podataka: Vaše lične podatke koristimo isključivo u svrhu pružanja usluga koje ste zatražili. To uključuje obradu i isporuku narudžbina, pružanje informacija o statusu narudžbine i rešavanje bilo kakvih pitanja ili pritužbi koje imate.
+
+                                Deljenje ličnih podataka: Vaše lične podatke nećemo deliti, prodavati, iznajmljivati ili otkrivati trećim stranama osim u slučajevima kada je to neophodno za ispunjenje vaše narudžbine (npr. dostavna služba). Uvek ćemo preduzeti razumne mere kako bismo osigurali da treće strane koje imaju pristup vašim podacima postupaju u skladu sa zakonom i pružaju odgovarajuću zaštitu podataka.
+
+                                Bezbednost podataka: Vaše lične podatke čuvamo sigurno i primenjujemo odgovarajuće tehničke i organizacione mere kako bismo sprečili neovlašćen pristup, gubitak ili krađu podataka. Takođe koristimo sigurne veze prilikom prenosa podataka kako bismo osigurali da se vaši podaci štite tokom komunikacije sa našom veb stranicom.
+
+                                Prava korisnika: Vi imate pravo da pristupite, ispravite ili izbrišete svoje lične podatke koje smo prikupili, kao i da povučete svoju saglasnost za njihovu obradu. Takođe možete zatražiti prenos vaših podataka na drugu stranu. Ako imate bilo kakva pitanja ili zahteve u vezi sa vašim ličnim podacima, molimo vas da nas kontaktirate putem informacija za kontakt navedenih na našoj veb stranici.</p>
                             <input type="submit" id="btnProPoruci" name="submitP" value="Poruci Pro" />
                         </form>
                     </div>
