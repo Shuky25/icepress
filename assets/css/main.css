@@ -813,6 +813,10 @@ footer .kontejner .red ul li a {
 	cursor: pointer;
 }
 
+.modal form {
+	overflow: hidden;
+}
+
 .modal form .form-control {
 	background-color: transparent;
 	border: none;
@@ -823,6 +827,7 @@ footer .kontejner .red ul li a {
 	display: flex;
 	align-items: self-start;
 	flex-direction: row;
+	flex: 1;
 }
 
 .modal form #formControl input[type=text] {
@@ -889,7 +894,24 @@ input[type=email] {
 		flex-direction: column;
 	}
 
+	.modalC-content form #formControl {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.modalC-content form #formControl .kec, .modalC-content form #formControl .dvojka {
+		width: 100%;
+		margin: 0;
+	}
+	
+	.modalC-content form #formControl input, .modalC-content form #formControl .kec input , .modalC-content form #formControl .dvojka input {
+		width: 100%;
+	}
+
 	.container1 {
 		flex-direction: column;
 	}
+
+
+	
 }
