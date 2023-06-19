@@ -912,6 +912,8 @@ input[type=email] {
 		flex-direction: column;
 	}
 
-
+	#kontejnerProizvod #redProizvod {
+		flex-wrap: wrap;
+	}
 	
 }
