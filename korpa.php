@@ -213,6 +213,25 @@
             ?>
         </div>
     </section>
+
+    <footer>
+        <div class="kontejner">
+            <div class="red">
+                <p style="font-family: Arial, Helvetica, sans-serif;">Zapratite nas</p>
+                <ul>
+                    <li><a href="" class="bi-instagram"></a></li>
+                    <li><a href="" class="bi-tiktok"></a></li>
+                    <li><a href="" class="bi-youtube"></a></li>
+                    <li><a href="" class="bi-mailbox"></a></li>
+                </ul>
+            </div>
+            <hr>
+            <div class="red" style="font-size: 16px;">
+                &copy; Copyright <strong><span>ICEPRESS</span></strong> All Rights Reserved
+                Designed by <a href="https://www.instagram.com/thewolfgraphics/">Thewolfgraphics</a>
+            </div>
+        </div>
+    </footer>
     <script src="assets/js/modal.js"></script>
     <script src="assets/js/mailer.js"></script>
 </body>
