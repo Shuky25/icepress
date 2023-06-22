@@ -178,7 +178,7 @@
 
             if ($_SERVER['REQUEST_METHOD'] == "POST") {
                 if (isset($_POST['submitC'])) {
-                    $to = 'vojinsundovic@gmail.com'; // njegov mejl
+                    $to = 'korpa.prezentacije@gmail.com'; // njegov mejl
                     $ime = $_POST['imeC'];
                     $prezime = $_POST['prezimeC'];
                     $mejl = $_POST['emailC'];
@@ -187,13 +187,13 @@
                     $headers = "From: " . $_POST['emailC'];
                     $msg = "Ime i prezime: " . $ime . ' ' . $prezime . "\nMejl: " . $mejl . "\nGrad, ulica i broj: " . $postanskiBroj . "\nBroj telefona: " . $brojTelefona . "\nTip: CLASSIC";
                     // mail(to,subject,message,headers,parameters);
-                    if (mail($to, "CLASSIC", $msg, $headers))
+                    if (mail($to, "Porucivanje CLASSIC", $msg, $headers))
                         echo '<script>alert("Mejl uspesno poslat");</script>';
                     else
                         echo '<script>alert("Doslo je do greske prilikom slanja mejla, kontaktiraj nas putem telefona!");</script>';
                 }
                 if (isset($_POST['submitP'])) {
-                    $to = 'vojinsundovic@gmail.com'; // njegov mejl
+                    $to = 'korpa.prezentacije@gmail.com'; // njegov mejl
                     $ime = $_POST['imeP'];
                     $prezime = $_POST['prezimeP'];
                     $mejl = $_POST['emailP'];
@@ -202,7 +202,7 @@
                     $headers = "From: " . $_POST['emailP'];
                     $msg = "Ime i prezime: " . $ime . ' ' . $prezime . "\nMejl: " . $mejl . "\nGrad, ulica i broj: " . $postanskiBroj . "\nBroj telefona: " . $brojTelefona . "\nTip: CLASSIC";
                     // mail(to,subject,message,headers,parameters);
-                    if (mail($to, "PRO", $msg, $headers))
+                    if (mail($to, "Porucivanje PRO", $msg, $headers))
                         echo '<script>alert("Mejl uspesno poslat");</script>';
                     else
                         echo '<script>alert("Doslo je do greske prilikom slanja mejla, kontaktiraj nas putem telefona!");</script>';
