@@ -58,15 +58,15 @@
                 <a href="proizvod1.html" class="logo d-flex align-items-center me-auto me-lg-0">
                     <img src="assets/img/classic.jpg" alt="">
                 </a>
-                <h2>IcePress Classic</h2>
-                <button class="poruciclassic">Poruci Classic</button>
+                <h2>Ice Press Classic</h2>
+                <button class="poruciclassic">Poruči</button>
 
                 <!-- Modal classic -->
                 <div id="modalClassic" class="modal">
                     <!-- Modal content -->
                     <div class="modalC-content">
                         <span class="close">&times;</span>
-                        <h2>Poručite IcePress Classic</h2>
+                        <h2>Poručite Ice Press Classic</h2>
                         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                             <div class="form-control" id="formControl">
                                 <div class="kec">
@@ -96,8 +96,8 @@
                                 <label for="brojtelefona">Broj telefona:</label><br>
                                 <input type="text" name="brojtelefonaC" placeholder="Unesite broj telefona" require>
                             </div><br>
+                            <p style="color: white;">Sve prese koje poručite se prave po porudžbini i biće dostavljene u periodu od 10-15 dana.</p><br>
                             <input id="checkC" name="check" type="checkbox" /><label for="check">Politika privatnosti </label><span id="politikaprivC">...</span><br>
-
                             <p id="politikaC">Hvala vam što posecujete našu veb stranicu i iskazujete interesovanje za naše proizvode. U našem poslovanju posvećeni smo zaštiti vaše privatnosti i sigurnosti vaših ličnih podataka. Ova politika privatnosti objašnjava kako prikupljamo, koristimo, otkrivamo i čuvamo vaše podatke prilikom korišćenja naše web stranice.
 
                                 Prikupljanje ličnih podataka: Prilikom naručivanja proizvoda sa naše veb stranice, možemo prikupiti određene lične podatke kao što su vaše ime, adresa e-pošte, adresa za dostavu i kontakt telefonski broj. Ovi podaci će se koristiti isključivo za obradu i isporuku vaše narudžbine.
@@ -109,7 +109,7 @@
                                 Bezbednost podataka: Vaše lične podatke čuvamo sigurno i primenjujemo odgovarajuće tehničke i organizacione mere kako bismo sprečili neovlašćen pristup, gubitak ili krađu podataka. Takođe koristimo sigurne veze prilikom prenosa podataka kako bismo osigurali da se vaši podaci štite tokom komunikacije sa našom veb stranicom.
 
                                 Prava korisnika: Vi imate pravo da pristupite, ispravite ili izbrišete svoje lične podatke koje smo prikupili, kao i da povučete svoju saglasnost za njihovu obradu. Takođe možete zatražiti prenos vaših podataka na drugu stranu. Ako imate bilo kakva pitanja ili zahteve u vezi sa vašim ličnim podacima, molimo vas da nas kontaktirate putem informacija za kontakt navedenih na našoj veb stranici.</p>
-                            <input type="submit" id="btnClassicPoruci" name="submitC" value="Poruci Classic" />
+                            <input type="submit" id="btnClassicPoruci" name="submitC" value="Poruči" />
                         </form>
                     </div>
                 </div>
@@ -118,14 +118,14 @@
                 <a href="proizvod2.html" class="logo d-flex align-items-center me-auto me-lg-0">
                     <img src="assets/img/pro.jpg" alt="">
                 </a>
-                <h2>IcePress PRO</h2>
-                <button class="porucipro">Poruci PRO</button>
+                <h2>Ice Press PRO</h2>
+                <button class="porucipro">Poruči</button>
                 <!-- Modal pro -->
                 <div id="modalPro" class="modal">
                     <!-- Modal content -->
                     <div class="modalC-content">
                         <span class="close">&times;</span>
-                        <h2>Poručite IcePress Pro</h2>
+                        <h2>Poručite Ice Press Pro</h2>
                         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                             <div class="form-control" id="formControl">
                                 <div class="kec">
@@ -155,8 +155,8 @@
                                 <label for="brojtelefona">Broj telefona:</label><br>
                                 <input type="text" name="brojtelefonaP" placeholder="Unesite broj telefona" require>
                             </div><br>
+                            <p style="color: white;">Sve prese koje poručite se prave po porudžbini i biće dostavljene u periodu od 10-15 dana.</p><br>
                             <input id="checkP" name="check" type="checkbox" /><label for="check">Politika privatnosti </label><span id="politikaprivP">...</span><br>
-
                             <p id="politikaP">Hvala vam što posecujete našu veb stranicu i iskazujete interesovanje za naše proizvode. U našem poslovanju posvećeni smo zaštiti vaše privatnosti i sigurnosti vaših ličnih podataka. Ova politika privatnosti objašnjava kako prikupljamo, koristimo, otkrivamo i čuvamo vaše podatke prilikom korišćenja naše web stranice.
 
                                 Prikupljanje ličnih podataka: Prilikom naručivanja proizvoda sa naše veb stranice, možemo prikupiti određene lične podatke kao što su vaše ime, adresa e-pošte, adresa za dostavu i kontakt telefonski broj. Ovi podaci će se koristiti isključivo za obradu i isporuku vaše narudžbine.
@@ -168,7 +168,7 @@
                                 Bezbednost podataka: Vaše lične podatke čuvamo sigurno i primenjujemo odgovarajuće tehničke i organizacione mere kako bismo sprečili neovlašćen pristup, gubitak ili krađu podataka. Takođe koristimo sigurne veze prilikom prenosa podataka kako bismo osigurali da se vaši podaci štite tokom komunikacije sa našom veb stranicom.
 
                                 Prava korisnika: Vi imate pravo da pristupite, ispravite ili izbrišete svoje lične podatke koje smo prikupili, kao i da povučete svoju saglasnost za njihovu obradu. Takođe možete zatražiti prenos vaših podataka na drugu stranu. Ako imate bilo kakva pitanja ili zahteve u vezi sa vašim ličnim podacima, molimo vas da nas kontaktirate putem informacija za kontakt navedenih na našoj veb stranici.</p>
-                            <input type="submit" id="btnProPoruci" name="submitP" value="Poruci Pro" />
+                            <input type="submit" id="btnProPoruci" name="submitP" value="Poruči" />
                         </form>
                     </div>
                 </div>
@@ -214,7 +214,7 @@
         </div>
     </section>
 
-    <footer>
+    <!-- <footer>
         <div class="kontejner">
             <div class="red">
                 <p style="font-family: Arial, Helvetica, sans-serif;">Zapratite nas</p>
@@ -231,7 +231,7 @@
                 Designed by <a href="https://www.instagram.com/thewolfgraphics/">Thewolfgraphics</a>
             </div>
         </div>
-    </footer>
+    </footer> -->
     <script src="assets/js/modal.js"></script>
     <script src="assets/js/mailer.js"></script>
 </body>

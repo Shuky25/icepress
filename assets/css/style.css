@@ -149,7 +149,7 @@ svg {
   left: 0;
   background-image: url(../img/slika2.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 35% 78%;
 }
 .slide:nth-child(1) .slide__overlay-path {
   fill: #000000;
@@ -167,7 +167,7 @@ svg {
   left: -50%;
   background-image: url(../img/slika3.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 45% 85%;
 }
 .slide:nth-child(2) .slide__overlay-path {
   fill: #000000;
@@ -184,7 +184,7 @@ svg {
   left: -100%;
   background-image: url(../img/slika16.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 55% 60%;
 }
 .slide:nth-child(3) .slide__overlay-path {
   fill: #000000;

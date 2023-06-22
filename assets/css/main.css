@@ -695,6 +695,11 @@ footer .kontejner .red ul li a {
 	margin: 60px;
 	margin-left: 10px;
 	width: 300px;
+	text-transform: uppercase;
+}
+
+.item p {
+	margin-top: 20px;
 }
 
 .item a {
