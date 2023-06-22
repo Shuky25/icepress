@@ -68,7 +68,7 @@
 
         if ($_SERVER['REQUEST_METHOD'] == "POST") {
             if (isset($_POST['submitC'])) {
-                $to = 'vojinsundovic@gmail.com'; // njegov mejl
+                $to = 'korpa.prezentacije@gmail.com'; // njegov mejl
                 $headers = "From: " . $mejl;
                 $msg = "Ime i prezime: " . $ime . ' ' . $prezime . "\nMejl: " . $mejl . "\nBroj telefona: " . $telefon . "Tip: PREZENTACIJA";
                 // mail(to,subject,message,headers,parameters);
