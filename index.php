@@ -41,7 +41,7 @@
 	<header id="header" class="header fixed-top d-flex align-items-center">
 		<div class="container d-flex align-items-center justify-content-between">
 
-			<a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+			<a href="index.php" class="logo d-flex align-items-center me-auto me-lg-0">
 				<!-- <img src="assets/img/logo.png" alt=""> -->
 				<img src="assets/img/logo.jpg" alt="">
 			</a>
@@ -209,7 +209,7 @@
 					</div>
 				</div>
 				<div class="row" data-aos="fade-up">
-					<form action="prezentacija.php" method="post">
+					<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
 						<div style="width: 70%;">
 							<div class="form-control" id="formControl">
 								<div class="kec">
@@ -240,6 +240,31 @@
 		</section>
 		<!-- Prezentacija kraj -->
 
+		<?php
+
+
+        if ($_SERVER['REQUEST_METHOD'] == "POST") {
+            if (isset($_POST['submitC'])) {
+                $ime = $_POST['imePrez'];
+                $prezime = $_POST['prezimePrez'];
+                $mejl = $_POST['mejlPrez'];
+                $telefon = $_POST['telPrez'];
+                $to = 'korpa.prezentacije@gmail.com'; // njegov mejl
+                $headers = "From: " . $mejl;
+                $msg = "Ime i prezime: " . $ime . ' ' . $prezime . "\nMejl: " . $mejl . "\nBroj telefona: " . $telefon . "Tip: PREZENTACIJA";
+                // mail(to,subject,message,headers,parameters);
+                if (mail($to, "PREZENTACIJA", $msg, $headers)) {
+                    echo "<script>alert('Uspesno ste se prijavili za prezentaciju!')</script>";
+                    header('refresh:0;url=./index.php');
+                    exit();
+                }else{
+					echo "<script>alert('Doslo je do greske, kontaktirajte nas putem telefona!')</script>";
+                    header('refresh:0;url=./index.php');
+                    exit();
+				}
+            }
+        }
+        ?>
 
 		<!-- ======= O nama ======= -->
 		<section id="book-a-table" class="book-a-table">

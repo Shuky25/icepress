@@ -200,7 +200,7 @@
                     $postanskiBroj = $_POST['postanskiP'];
                     $brojTelefona = $_POST['brojtelefonaP'];
                     $headers = "From: " . $_POST['emailP'];
-                    $msg = "Ime i prezime: " . $ime . ' ' . $prezime . "\nMejl: " . $mejl . "\nGrad, ulica i broj: " . $postanskiBroj . "\nBroj telefona: " . $brojTelefona . "\nTip: CLASSIC";
+                    $msg = "Ime i prezime: " . $ime . ' ' . $prezime . "\nMejl: " . $mejl . "\nGrad, ulica i broj: " . $postanskiBroj . "\nBroj telefona: " . $brojTelefona . "\nTip: PRO";
                     // mail(to,subject,message,headers,parameters);
                     if (mail($to, "Porucivanje PRO", $msg, $headers))
                         echo '<script>alert("Mejl uspesno poslat");</script>';
