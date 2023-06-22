@@ -187,10 +187,15 @@
                     $headers = "From: " . $_POST['emailC'];
                     $msg = "Ime i prezime: " . $ime . ' ' . $prezime . "\nMejl: " . $mejl . "\nGrad, ulica i broj: " . $postanskiBroj . "\nBroj telefona: " . $brojTelefona . "\nTip: CLASSIC";
                     // mail(to,subject,message,headers,parameters);
-                    if (mail($to, "Porucivanje CLASSIC", $msg, $headers))
+                    if (mail($to, "Porucivanje CLASSIC", $msg, $headers)) {
                         echo '<script>alert("Mejl uspesno poslat");</script>';
-                    else
+                        header('refresh:0;url=./index.php');
+                        exit();
+                    } else {
                         echo '<script>alert("Doslo je do greske prilikom slanja mejla, kontaktiraj nas putem telefona!");</script>';
+                        header('refresh:0;url=./index.php');
+                        exit();
+                    }
                 }
                 if (isset($_POST['submitP'])) {
                     $to = 'korpa.prezentacije@gmail.com'; // njegov mejl
