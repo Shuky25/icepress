@@ -256,11 +256,11 @@
 				</div>
 				<div class="row">
 					<div class="col-md-6" data-aos="fade-up">
-						<p>Ice press tim obilazice gradove na teritoriji cele Srbije u cilju besplatnog prezentovanja
-							nasih
-							proizvoda. Mozete uzivo videti kako nase prese rade, a mi cemo odgovoriti na svako Vase
+						<p>Ice Press tim obilaziće gradove na teritoriji cele Srbije u cilju besplatnog prezentovanja
+							naših
+							proizvoda. Možete uzivo videti kako naše prese rade, a mi ćemo odgovoriti na svako Vaše
 							pitanje.
-							Nakon sto se prijavite i ostavite neophodne podatke, niste u obavezi da kupite presu,
+							Nakon što se prijavite i ostavite neophodne podatke, niste u obavezi da kupite presu,
 							upoznajmo se. </p>
 					</div>
 					<div class="col-md-6" id="prezentacijaSlika" data-aos="fade-up">
