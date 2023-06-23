@@ -135,13 +135,13 @@
 				<a href="proizvod1.html" class="logo d-flex align-items-center me-auto me-lg-0">
 					<img src="./assets/img/classic.jpg" alt="classic" class="img-fluid">
 				</a>
-				<p style="text-align: center;">Ice Press Classic</p>
+				<p style="text-align: center; font-weight: bold;">Ice Press Classic</p>
 			</div>
 			<div class="item">
 				<a href="proizvod2.html" class="logo d-flex align-items-center me-auto me-lg-0">
 					<img src="./assets/img/pro.jpg" alt="pro" class="img-fluid">
 				</a>
-				<p style="text-align: center;">Ice Press PRO</p>
+				<p style="text-align: center; font-weight: bold;">Ice Press PRO</p>
 			</div>
 		</div>
 
@@ -222,7 +222,7 @@
 		<section id="prezentacija">
 			<div class="container">
 				<div class="section-header">
-					<p>Zakažite besplatnu prezentaciju</p>
+					<p style="font-weight: bold;">Zakažite besplatnu prezentaciju</p>
 				</div>
 				<div class="row">
 					<div class="col-md-6" data-aos="fade-up">
@@ -303,19 +303,12 @@
 				</div>
 
 				<div class="row g-0">
-					<p style="font-size: 20px; align-items: center; align-content: center;">Naš cilj je da vam pomognemo
-						da
-						uživate u pićima na najbolji mogući način.
+					<p style="font-size: 20px; align-items: center; align-content: center;">
+						Naš cilj je da Vam pomognemo da uživate u pićima na najbolji mogući način.
 						Verujemo da je posluživanje pića umetnost i da svako piće zaslužuje posebnu pažnju i negu.
-						Zbog toga smo se posvetili razvoju inovativnih proizvoda koji će vam pomoći da unapredite vaše
-						iskustvo sa
-						pićima.
-						Pored toga, mi smo tu da vam pružimo podršku u korišćenju naših proizvoda i da vam pomognemo u
-						ostvarivanju
-						vaših ciljeva.
-						Verujemo da svako piće može biti posebno iskustvo i da je naša uloga da vam omogućimo da to
-						iskustvo osetite
-						na najbolji mogući način.
+						Zbog toga smo se posvetili razvoju inovativnih proizvoda koji će Vam pomoći da unapredite vaše iskustvo sa pićima.
+						Pored toga, mi smo tu da Vam pružimo podršku u korišćenju naših proizvoda i da Vam pomognemo u ostvarivanju vaših ciljeva.
+						Verujemo da svako piće može biti posebno iskustvo i da je naša uloga da Vam omogućimo da to iskustvo osetite na najbolji mogući
 					</p>
 				</div>
 
@@ -387,10 +380,10 @@
 			<div class="red">
 				<p style="font-family: Arial, Helvetica, sans-serif;">Zapratite nas</p>
 				<ul>
-					<li><a href="" class="bi-instagram"></a></li>
-					<li><a href="" class="bi-tiktok"></a></li>
-					<li><a href="" class="bi-youtube"></a></li>
-					<li><a href="" class="bi-mailbox"></a></li>
+					<li><a href="https://www.instagram.com/icepress.rs/" class="bi-instagram"></a></li>
+					<li><a href="https://www.tiktok.com/@icepress.rs" class="bi-tiktok"></a></li>
+					<li><a href="https://www.youtube.com/@IcePress" class="bi-youtube"></a></li>
+					<li><a href="mailto:icepress.info@gmail.com" class="bi-mailbox"></a></li>
 				</ul>
 			</div>
 			<hr>
