@@ -912,6 +912,7 @@ input[type=email] {
 
 	.container1 {
 		flex-direction: column;
+		justify-content: center;
 	}
 
 	.container1 .item:first-child {

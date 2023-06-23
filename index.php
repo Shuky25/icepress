@@ -97,25 +97,28 @@
 			#carouselExampleIndicators .carousel-inner .carousel-item {
 				width: 100%;
 				height: 100vh;
-				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
 			}
 
 			#carouselExampleIndicators .carousel-inner #first {
 				background-image: url("./assets/img/slika2.jpg");
+				background-position: 35% 78%;
 			}
 
 			#carouselExampleIndicators .carousel-inner #second {
 				background-image: url("./assets/img/slika3.jpg");
+				background-position: 45% 85%;
 			}
 
 			#carouselExampleIndicators .carousel-inner #third {
 				background-image: url("./assets/img/slika16.jpg");
+				background-position: 55% 60%;
 			}
 
 			#carouselExampleIndicators .carousel-inner #fourth {
 				background-image: url("./assets/img/slika4.jpg");
+				background-position: center;
 			}
 		</style>
 		<div id="carouselExampleIndicators" class="carousel slide">
@@ -154,8 +157,7 @@
 			<div class="container" data-aos="fade-up">
 
 				<div class="section-header">
-					<h2></h2>
-					<p>Proizvodi</p>
+					<p style="font-weight: bold;">Proizvodi</p>
 				</div>
 			</div>
 		</section><!-- Vise o nama kraj -->
@@ -165,13 +167,13 @@
 				<a href="proizvod1.html" class="logo d-flex align-items-center me-auto me-lg-0">
 					<img src="./assets/img/classic.jpg" alt="classic" class="img-fluid">
 				</a>
-				<p style="text-align: center; font-weight: bold;">Ice Press Classic</p>
+				<p style="text-align: center; font-weight: bold;">IcePress Classic</p>
 			</div>
 			<div class="item">
 				<a href="proizvod2.html" class="logo d-flex align-items-center me-auto me-lg-0">
 					<img src="./assets/img/pro.jpg" alt="pro" class="img-fluid">
 				</a>
-				<p style="text-align: center; font-weight: bold;">Ice Press PRO</p>
+				<p style="text-align: center; font-weight: bold;">IcePress PRO</p>
 			</div>
 		</div>
 
@@ -256,12 +258,7 @@
 				</div>
 				<div class="row">
 					<div class="col-md-6" data-aos="fade-up">
-						<p>Ice Press tim obilaziće gradove na teritoriji cele Srbije u cilju besplatnog prezentovanja
-							naših
-							proizvoda. Možete uzivo videti kako naše prese rade, a mi ćemo odgovoriti na svako Vaše
-							pitanje.
-							Nakon što se prijavite i ostavite neophodne podatke, niste u obavezi da kupite presu,
-							upoznajmo se. </p>
+						<p>IcePress tim obilaziće gradove na teritoriji cele Srbije u cilju besplatnog prezentovanja naših proizvoda. Možete uživo videti kako naše prese rade, a mi ćemo odgovoriti na svako Vaše pitanje. Nakon što se prijavite i ostavite neophodne podatke, niste u obavezi da kupite presu, upoznajmo se.</p>
 					</div>
 					<div class="col-md-6" id="prezentacijaSlika" data-aos="fade-up">
 						<img src="./assets/img/prezentacija.png" class="img-fluid" alt="Slicica">
@@ -329,16 +326,12 @@
 			<div class="container" data-aos="fade-up">
 
 				<div class="section-header">
-					<p>O nama <span><!--nema razmaka--></span> <!--ima razmak--></p>
+					<p style="font-weight: bold;">O nama</p>
 				</div>
 
 				<div class="row g-0">
 					<p style="font-size: 20px; align-items: center; align-content: center;">
-						Naš cilj je da Vam pomognemo da uživate u pićima na najbolji mogući način.
-						Verujemo da je posluživanje pića umetnost i da svako piće zaslužuje posebnu pažnju i negu.
-						Zbog toga smo se posvetili razvoju inovativnih proizvoda koji će Vam pomoći da unapredite vaše iskustvo sa pićima.
-						Pored toga, mi smo tu da Vam pružimo podršku u korišćenju naših proizvoda i da Vam pomognemo u ostvarivanju vaših ciljeva.
-						Verujemo da svako piće može biti posebno iskustvo i da je naša uloga da Vam omogućimo da to iskustvo osetite na najbolji mogući
+						Naš cilj je da Vam pomognemo da uživate u pićima na najbolji mogući način. Verujemo da je posluživanje pića umetnost i da svako piće zaslužuje posebnu pažnju i negu. Zbog toga smo se posvetili razvoju inovativnih proizvoda koji će Vam pomoći da unapredite Vaše iskustvo sa pićima. Pored toga, mi smo tu da Vam pružimo podršku u korišćenju naših proizvoda i da Vam pomognemo u ostvarivanju Vaših ciljeva. Verujemo da svako piće može biti posebno iskustvo i da je naša uloga da Vam omogućimo da to iskustvo osetite na najbolji mogući način.
 					</p>
 				</div>
 
@@ -350,7 +343,7 @@
 			<div class="container" data-aos="fade-up">
 
 				<div class="section-header">
-					<p>Kontaktirajte nas</p>
+					<p style="font-weight: bold;">Kontaktirajte nas</p>
 				</div>
 
 				<div class="item2">
