@@ -67,6 +67,36 @@ nav ul {
 	align-items: center;
 }
 
+#carouselExampleIndicators {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item {
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#carouselExampleIndicators .carousel-inner #first {
+	background-image: url("../img/slika2.jpg");
+}
+
+#carouselExampleIndicators .carousel-inner #second {
+	background-image: url("../img/slika3.jpg");
+}
+
+#carouselExampleIndicators .carousel-inner #third {
+	background-image: url("../img/slika16.jpg");
+}
+
+#carouselExampleIndicators .carousel-inner #fourth {
+	background-image: url("../img/slika4.jpg");
+}
+
 .section-bg {
 	background-color: rgb(255, 255, 255);
 }
@@ -685,16 +715,11 @@ footer .kontejner .red ul li a {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-around;
 	overflow: hidden;
 }
 
 .item {
-	flex-basis: 600px;
-	height: 600px;
-	margin: 60px;
-	margin-left: 10px;
-	width: 300px;
 	text-transform: uppercase;
 }
 
@@ -915,6 +940,10 @@ input[type=email] {
 
 	.container1 {
 		flex-direction: column;
+	}
+
+	.container1 .item:first-child {
+		margin-bottom: 150px;
 	}
 
 	#kontejnerProizvod #redProizvod {

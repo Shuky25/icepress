@@ -16,9 +16,7 @@
 	<!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
 	<!-- Vendor CSS Files -->
 	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,7 +28,6 @@
 
 	<!-- Template Main CSS File -->
 	<link href="assets/css/main.css" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/style.css">
 
 
 </head>
@@ -66,7 +63,7 @@
 	</header><!-- Header kraj -->
 
 	<!-- ======= Hero Section ======= -->
-	<div class="slider-container" id="hero">
+	<!-- <div class="slider-container" id="hero">
 		<div class="slider-control left inactive"></div>
 		<div class="slider-control right"></div>
 		<ul class="slider-pagi"></ul>
@@ -87,9 +84,40 @@
 
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<main id="main">
+
+		<div id="carouselExampleIndicators" class="carousel slide">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active" id="first">
+					<!-- <img src="./assets/img/slika2.jpg" class="d-block w-100" alt="1"> -->
+				</div>
+				<div class="carousel-item" id="second">
+					<!-- <img src="./assets/img/slika3.jpg" class="d-block w-100" alt="2"> -->
+				</div>
+				<div class="carousel-item" id="third">
+					<!-- <img src="./assets/img/slika16.jpg" class="d-block w-100" alt="3"> -->
+				</div>
+				<div class="carousel-item" id="fourth">
+					<!-- <img src="./assets/img/slika4.jpg" class="d-block w-100" alt="4"> -->
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
 
 		<!-- ======= Vise o nama ======= -->
 		<section id="about" class="about">
@@ -105,13 +133,13 @@
 		<div class="container1">
 			<div class="item">
 				<a href="proizvod1.html" class="logo d-flex align-items-center me-auto me-lg-0">
-					<img src="./assets/img/classic.jpg" alt="">
+					<img src="./assets/img/classic.jpg" alt="classic" class="img-fluid">
 				</a>
-				<p style="text-align: center;">Ice 	Press Classic</p>
+				<p style="text-align: center;">Ice Press Classic</p>
 			</div>
 			<div class="item">
 				<a href="proizvod2.html" class="logo d-flex align-items-center me-auto me-lg-0">
-					<img src="./assets/img/pro.jpg" alt="">
+					<img src="./assets/img/pro.jpg" alt="pro" class="img-fluid">
 				</a>
 				<p style="text-align: center;">Ice Press PRO</p>
 			</div>
@@ -185,7 +213,8 @@
 					width: 400px;
 				}
 
-				#prezentacija .row, #prezentacija .row form {
+				#prezentacija .row,
+				#prezentacija .row form {
 					flex-direction: column;
 				}
 			}
@@ -232,8 +261,7 @@
 								</div>
 							</div>
 						</div>
-						<input type="submit" id="btnClassicPoruci" name="submitC"
-							value="Zakaži besplatnu prezentaciju" />
+						<input type="submit" id="btnClassicPoruci" name="submitC" value="Zakaži besplatnu prezentaciju" />
 					</form>
 				</div>
 			</div>
@@ -243,28 +271,28 @@
 		<?php
 
 
-        if ($_SERVER['REQUEST_METHOD'] == "POST") {
-            if (isset($_POST['submitC'])) {
-                $ime = $_POST['imePrez'];
-                $prezime = $_POST['prezimePrez'];
-                $mejl = $_POST['mejlPrez'];
-                $telefon = $_POST['telPrez'];
-                $to = 'korpa.prezentacije@gmail.com'; // njegov mejl
-                $headers = "From: " . $mejl;
-                $msg = "Ime i prezime: " . $ime . ' ' . $prezime . "\nMejl: " . $mejl . "\nBroj telefona: " . $telefon . "Tip: PREZENTACIJA";
-                // mail(to,subject,message,headers,parameters);
-                if (mail($to, "PREZENTACIJA", $msg, $headers)) {
-                    echo "<script>alert('Uspesno ste se prijavili za prezentaciju!')</script>";
-                    header('refresh:0;url=./index.php');
-                    exit();
-                }else{
+		if ($_SERVER['REQUEST_METHOD'] == "POST") {
+			if (isset($_POST['submitC'])) {
+				$ime = $_POST['imePrez'];
+				$prezime = $_POST['prezimePrez'];
+				$mejl = $_POST['mejlPrez'];
+				$telefon = $_POST['telPrez'];
+				$to = 'korpa.prezentacije@gmail.com'; // njegov mejl
+				$headers = "From: " . $mejl;
+				$msg = "Ime i prezime: " . $ime . ' ' . $prezime . "\nMejl: " . $mejl . "\nBroj telefona: " . $telefon . "Tip: PREZENTACIJA";
+				// mail(to,subject,message,headers,parameters);
+				if (mail($to, "PREZENTACIJA", $msg, $headers)) {
+					echo "<script>alert('Uspesno ste se prijavili za prezentaciju!')</script>";
+					header('refresh:0;url=./index.php');
+					exit();
+				} else {
 					echo "<script>alert('Doslo je do greske, kontaktirajte nas putem telefona!')</script>";
-                    header('refresh:0;url=./index.php');
-                    exit();
+					header('refresh:0;url=./index.php');
+					exit();
 				}
-            }
-        }
-        ?>
+			}
+		}
+		?>
 
 		<!-- ======= O nama ======= -->
 		<section id="book-a-table" class="book-a-table">
@@ -374,8 +402,7 @@
 	</footer>
 	<!-- Footer kraj -->
 
-	<a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
-			class="bi bi-arrow-up-short"></i></a>
+	<a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 	<div id="preloader"></div>
 
