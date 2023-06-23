@@ -151,7 +151,11 @@
 				<span class="visually-hidden">Next</span>
 			</button>
 		</div>
-
+			<script>
+				setInterval(() => {
+					document.querySelector('.carousel-control-next').click();
+				}, 3000);
+			</script>
 		<!-- ======= Vise o nama ======= -->
 		<section id="about" class="about">
 			<div class="container" data-aos="fade-up">
