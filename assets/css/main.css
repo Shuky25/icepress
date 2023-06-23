@@ -67,35 +67,7 @@ nav ul {
 	align-items: center;
 }
 
-#carouselExampleIndicators {
-	width: 100%;
-	height: 100vh;
-	overflow: hidden;
-}
 
-#carouselExampleIndicators .carousel-inner .carousel-item {
-	width: 100%;
-	height: 100vh;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-#carouselExampleIndicators .carousel-inner #first {
-	background-image: url("../img/slika2.jpg");
-}
-
-#carouselExampleIndicators .carousel-inner #second {
-	background-image: url("../img/slika3.jpg");
-}
-
-#carouselExampleIndicators .carousel-inner #third {
-	background-image: url("../img/slika16.jpg");
-}
-
-#carouselExampleIndicators .carousel-inner #fourth {
-	background-image: url("../img/slika4.jpg");
-}
 
 .section-bg {
 	background-color: rgb(255, 255, 255);

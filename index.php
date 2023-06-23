@@ -87,7 +87,37 @@
 	</div> -->
 
 	<main id="main">
+		<style>
+			#carouselExampleIndicators {
+				width: 100%;
+				height: 100vh;
+				overflow: hidden;
+			}
 
+			#carouselExampleIndicators .carousel-inner .carousel-item {
+				width: 100%;
+				height: 100vh;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+
+			#carouselExampleIndicators .carousel-inner #first {
+				background-image: url("./assets/img/slika2.jpg");
+			}
+
+			#carouselExampleIndicators .carousel-inner #second {
+				background-image: url("./assets/img/slika3.jpg");
+			}
+
+			#carouselExampleIndicators .carousel-inner #third {
+				background-image: url("./assets/img/slika16.jpg");
+			}
+
+			#carouselExampleIndicators .carousel-inner #fourth {
+				background-image: url("./assets/img/slika4.jpg");
+			}
+		</style>
 		<div id="carouselExampleIndicators" class="carousel slide">
 			<div class="carousel-indicators">
 				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
